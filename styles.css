@@ -1,0 +1,22 @@
+body {
+    font-family: 'Times New Roman', serif;
+}
+
+li {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px
+}
+
+h1,
+h2 {
+    text-align: center;
+    background-color: lightseagreen;
+}
+
+img {
+    width: auto;
+    height: 500px;
+}
