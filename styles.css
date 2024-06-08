@@ -1,10 +1,8 @@
 body {
     font-family: 'Times New Roman', serif;
-}
-
-li {
     font-size: 24px;
 }
+
 
 h1 {
     font-size: 48px
@@ -13,14 +11,38 @@ h1 {
 h1,
 h2 {
     text-align: center;
-    background-color: lightseagreen;
 }
 
 img {
     width: auto;
     height: 500px;
+    margin: 0 auto;
+    display: block;
 }
 
-a {
-    font-weight: bold;
+.recipe {
+    font-size: 36px;
+    display: block;
+    margin: 8px 0;
+    background-color: white;
+    border: 4px solid black;
+    text-align: center;
+    padding: 4px 0;
+}
+
+.recipe-selector {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.description {
+    text-align: center;
+}
+
+.container {
+    border: 4px solid black;
+    margin: 16px auto;
+    padding: 8px;
+    background-color: #EEEEEE;
+    width: 50%;
 }
